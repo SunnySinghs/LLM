@@ -1,3 +1,5 @@
+Use .ipynb file for verification locally as it contains the instruction to run the Ollama model on the same server as this application. 
+
 # QA Bot System with LLM and Vector Database
 
 **Note:** Use .py file for deployment. Below readme file details are given according to .py file.
@@ -92,7 +94,9 @@ docker run -p 8000:8000 --env-file .env LLM
 ### 3. Deploy to GCP
 **Google Kubernetes Engine (GKE)** : Deploy the Docker container to GKE.
 
-## Usage
+We need to provide the URL of running Ollama model while generating the embeddings. Currently, it is assumed that the model is running on the same machine as the application.
+
+## Usage(Needs to be develop)
 
 ### 1. API Endpoints:
 1. **POST /upload** - Upload PDF files, create embedding and same in vector database
