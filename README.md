@@ -1,6 +1,6 @@
 # QA Bot System with LLM and Vector Database
 
-**Note:** Use .py file for deployment. Below readme file details are given according to .py file
+**Note:** Use .py file for deployment. Below readme file details are given according to .py file.
 
 This project implements a Question-Answering (QA) system using Large Language Models (LLM), embeddings, and a vector database. The system extracts text from PDFs, generates embeddings, stores them in a vector database, and retrieves relevant text chunks based on user queries. The architecture ensures scalability, performance, and security.
 
