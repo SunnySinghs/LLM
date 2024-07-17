@@ -1,4 +1,4 @@
-Use .ipynb file for verification locally as it contains the instruction to run the Ollama model on the same server as this application. 
+Use .ipynb file for verification locally as it contains the instruction to run the Ollama model on the same server as the application. 
 
 # QA Bot System with LLM and Vector Database
 
