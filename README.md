@@ -16,7 +16,7 @@ This project implements a Question-Answering (QA) system using Large Language Mo
 
 ## Architecture
 
-Architecture Diagram and Explanation.pdf in source code
+Architecture Diagram.pdf in source code.
 
 ### Components
 1. **Clients**: Web/Mobile Applications
@@ -70,6 +70,8 @@ GCP_BUCKET_NAME = <gcp_bucket_name>
 
 ## Deployment
 
+We need to provide the URL of running Ollama model while creating the Ollama model. Currently, It is assumed that the model is running on the same machine as the application. We can deploy the Ollama model on cloud like GCP Vertex AI and provide the URL whilecreating Ollama model.
+
 ### 1. Dockerize the Application
 Create a Dockerfile:
 ```sh
@@ -94,7 +96,6 @@ docker run -p 8000:8000 --env-file .env LLM
 ### 3. Deploy to GCP
 **Google Kubernetes Engine (GKE)** : Deploy the Docker container to GKE.
 
-We need to provide the URL of running Ollama model while generating the embeddings. Currently, it is assumed that the model is running on the same machine as the application.
 
 ## Usage(Needs to be develop)
 
